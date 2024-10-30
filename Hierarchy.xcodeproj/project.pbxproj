@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		FAF52EC42CD0C855008E8300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA9A00722CC2842900AEE159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA9A00792CC2842900AEE159;
+			remoteInfo = Hierarchy;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		FA9A007A2CC2842900AEE159 /* Hierarchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hierarchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF52EC02CD0C855008E8300 /* HierarchyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HierarchyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = Hierarchy;
 			sourceTree = "<group>";
 		};
+		FAF52EC12CD0C855008E8300 /* HierarchyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HierarchyTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FA9A00772CC2842900AEE159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF52EBD2CD0C855008E8300 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				FA9A007C2CC2842900AEE159 /* Hierarchy */,
+				FAF52EC12CD0C855008E8300 /* HierarchyTests */,
 				FA9A007B2CC2842900AEE159 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				FA9A007A2CC2842900AEE159 /* Hierarchy.app */,
+				FAF52EC02CD0C855008E8300 /* HierarchyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = FA9A007A2CC2842900AEE159 /* Hierarchy.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FAF52EBF2CD0C855008E8300 /* HierarchyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF52EC82CD0C855008E8300 /* Build configuration list for PBXNativeTarget "HierarchyTests" */;
+			buildPhases = (
+				FAF52EBC2CD0C855008E8300 /* Sources */,
+				FAF52EBD2CD0C855008E8300 /* Frameworks */,
+				FAF52EBE2CD0C855008E8300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF52EC52CD0C855008E8300 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FAF52EC12CD0C855008E8300 /* HierarchyTests */,
+			);
+			name = HierarchyTests;
+			packageProductDependencies = (
+			);
+			productName = HierarchyTests;
+			productReference = FAF52EC02CD0C855008E8300 /* HierarchyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -83,6 +131,10 @@
 					FA9A00792CC2842900AEE159 = {
 						CreatedOnToolsVersion = 16.0;
 					};
+					FAF52EBF2CD0C855008E8300 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FA9A00792CC2842900AEE159;
+					};
 				};
 			};
 			buildConfigurationList = FA9A00752CC2842900AEE159 /* Build configuration list for PBXProject "Hierarchy" */;
@@ -94,18 +146,28 @@
 			);
 			mainGroup = FA9A00712CC2842900AEE159;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FA9A007B2CC2842900AEE159 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FA9A00792CC2842900AEE159 /* Hierarchy */,
+				FAF52EBF2CD0C855008E8300 /* HierarchyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FA9A00782CC2842900AEE159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF52EBE2CD0C855008E8300 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +184,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAF52EBC2CD0C855008E8300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF52EC52CD0C855008E8300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA9A00792CC2842900AEE159 /* Hierarchy */;
+			targetProxy = FAF52EC42CD0C855008E8300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FA9A00862CC2842A00AEE159 /* Debug */ = {
@@ -302,6 +379,42 @@
 			};
 			name = Release;
 		};
+		FAF52EC62CD0C855008E8300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57FHRQVBLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luky.skrivos.course.app.HierarchyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hierarchy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hierarchy";
+			};
+			name = Debug;
+		};
+		FAF52EC72CD0C855008E8300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57FHRQVBLR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = luky.skrivos.course.app.HierarchyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hierarchy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hierarchy";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -319,6 +432,15 @@
 			buildConfigurations = (
 				FA9A00892CC2842A00AEE159 /* Debug */,
 				FA9A008A2CC2842A00AEE159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF52EC82CD0C855008E8300 /* Build configuration list for PBXNativeTarget "HierarchyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF52EC62CD0C855008E8300 /* Debug */,
+				FAF52EC72CD0C855008E8300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
